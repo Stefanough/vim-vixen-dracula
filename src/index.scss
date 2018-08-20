@@ -1,8 +1,8 @@
 // font settings
 
 $font-family:          'Inconsolata for Powerline', 'Inconsolata', monospace;
-$font-size:            16px;
-$console-line-height:  20px;
+$font-size:            12px;
+$console-line-height:  14px;
 
 @mixin strong-font {
   font-weight: normal !important;
@@ -16,16 +16,16 @@ $console-line-height:  20px;
 
 // color settings
 
-$dracula-bg:       #282a36;
-$dracula-line:     #44475a;
-$dracula-sel:      #44475a;
-$dracula-fg:       #f8f8f2;
-$dracula-comment:  #6272a4;
-$dracula-cyan:     #8be9fd;
+$dracula-bg:       #282a36; // text color in hints, console/search on success bg color
+$dracula-line:     #44475a; 
+$dracula-sel:      #44475a; // console/search bg color
+$dracula-fg:       #f8f8f2; // console/search font color
+$dracula-comment:  #6272a4; // console tab description text color
+$dracula-cyan:     #8be9fd; // bg color in hints, console/search on success font color, command description font color
 $dracula-green:    #50fa7b;
 $dracula-orange:   #ffb86c;
 $dracula-pink:     #ff79c6;
-$dracula-purple:   #bd93f9;
+$dracula-purple:   #bd93f9; // console header font color
 $dracula-red:      #ff5555;
 $dracula-yellow:   #f1fa8c;
 
