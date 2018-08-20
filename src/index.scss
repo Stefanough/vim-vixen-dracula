@@ -32,6 +32,7 @@ $dracula-yellow:   #f1fa8c;
 $hint-bg:      $dracula-cyan;
 $hint-fg:      $dracula-bg;
 $hint-border:  1px solid $dracula-cyan;
+$hint-padding: 2px;
 
 $console-border: none;
 
@@ -54,7 +55,7 @@ $info-fg: $dracula-cyan;
 
 $command-bg:          $dracula-line;
 $command-fg:          $dracula-fg;
-$command-border-top:  1px solid $dracula-line;
+$command-border-top:  1px solid $dracula-pink;
 
 // concatenated copy of the orignal style source files
 
@@ -72,6 +73,8 @@ $command-border-top:  1px solid $dracula-line;
   font-family: $font-family !important;
   font-size: $font-size !important;
   color: $hint-fg !important;
+  padding-left: $hint-padding !important;
+  padding-right: $hint-padding !important;
   @include strong-font;
 }
 
